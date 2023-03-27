@@ -14,7 +14,7 @@ public class Aplic {
         ContaCorrente[] matBanco = new ContaCorrente[15];
         
         
-        for(i = 0; i < 15; i++)
+        for(i = 0; i < matBanco.length; i++)
         {
             System.out.print("Informe o número da conta: ");
             numConta = entrada.nextInt();
@@ -44,7 +44,7 @@ public class Aplic {
                     System.out.print("Informe o número da conta: ");
                     numConta = entrada.nextInt();
                     
-                    for(i = 0; i < 15; i++)
+                    for(i = 0; i < matBanco.length; i++)
                     {
                         if(matBanco[i].getNumero() == numConta)
                         {
@@ -58,7 +58,7 @@ public class Aplic {
                             j++;
                     }
                     
-                    if(j == 15)
+                    if(j == matBanco.length)
                         System.out.print("\nConta não cadastradada.\n");
                     
                     break;
@@ -67,7 +67,7 @@ public class Aplic {
                     System.out.print("Informe o número da conta: ");
                     numConta = entrada.nextInt();
                     
-                    for(i = 0; i < 15; i++)
+                    for(i = 0; i < matBanco.length; i++)
                     {
                         if(matBanco[i].getNumero() == numConta)
                         {
@@ -87,7 +87,7 @@ public class Aplic {
                             j++;
                     }
                     
-                    if(j == 15)
+                    if(j == matBanco.length)
                         System.out.print("\nConta não cadastradada.\n");
                     
                     break;
@@ -96,7 +96,7 @@ public class Aplic {
                     System.out.print("Informe o número da conta: ");
                     numConta = entrada.nextInt();
                     
-                    for(i = 0; i < 15; i++)
+                    for(i = 0; i < matBanco.length; i++)
                     {
                         if(matBanco[i].getNumero() == numConta)
                         {
@@ -108,14 +108,14 @@ public class Aplic {
                             j++;
                     }
                     
-                    if(j == 15)
+                    if(j == matBanco.length)
                         System.out.print("\nConta não cadastradada.\n");
                     
                     break;
                 
                 case 4:
                     System.out.printf("Número da conta\t\tSaldo\n");
-                    for(i = 0; i < 15; i++)
+                    for(i = 0; i < matBanco.length; i++)
                         System.out.printf("%5d\t\t\t%5s\n", matBanco[i].getNumero(), df.format(matBanco[i].getSaldo()));
                     break;
                 
