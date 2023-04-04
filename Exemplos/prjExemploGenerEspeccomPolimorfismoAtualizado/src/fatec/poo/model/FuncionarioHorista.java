@@ -1,9 +1,5 @@
 package fatec.poo.model;
 
-/**
- *
- * @author Dimas
- */
 public class FuncionarioHorista extends Funcionario{
     private double valHorTrab;
     private int qtdeHorTrab;
