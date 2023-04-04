@@ -3,10 +3,6 @@ import fatec.poo.model.FuncionarioHorista;
 import fatec.poo.model.FuncionarioMensalista;
 import java.text.DecimalFormat;
 
-/**
- *
- * @author Dimas
- */
 public class Aplic {
     public static void main(String[] args) {
         DecimalFormat df = new DecimalFormat("#,##0.00");
