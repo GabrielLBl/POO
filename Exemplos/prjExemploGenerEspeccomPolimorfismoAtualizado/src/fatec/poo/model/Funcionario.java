@@ -1,9 +1,5 @@
 package fatec.poo.model;
 
-/**
- *
- * @author Dimas
- */
 public abstract class Funcionario {
     private int registro;
     private String nome;
