@@ -1,9 +1,5 @@
 package fatec.poo.model;
 
-/**
- *
- * @author Dimas
- */
 public class FuncionarioMensalista extends Funcionario{
     private double numSalMin;
     private double valSalMin;
