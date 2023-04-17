@@ -1,10 +1,6 @@
 
 package fatec.poo.model;
 
-/**
- *
- * @author Dimas
- */
 public class Departamento {
     private String sigla;
     private String nome;
