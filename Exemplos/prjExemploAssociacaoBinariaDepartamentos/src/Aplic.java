@@ -3,10 +3,6 @@ import fatec.poo.model.FuncionarioComissionado;
 import fatec.poo.model.FuncionarioHorista;
 import fatec.poo.model.FuncionarioMensalista;
 
-/**
- *
- * @author Dimas
- */
 public class Aplic {
     public static void main(String[] args) {
         FuncionarioHorista funcHor  = new FuncionarioHorista(1010,
