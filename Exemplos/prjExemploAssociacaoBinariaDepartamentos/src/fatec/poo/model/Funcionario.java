@@ -2,7 +2,7 @@ package fatec.poo.model;
 
 /**
  *
- * @author dimas
+ * @author GB
  */
 public abstract class Funcionario {
     private int registro;
