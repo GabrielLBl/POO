@@ -1,9 +1,5 @@
 package fatec.poo.model;
 
-/**
- *
- * @author Dimas
- */
 public class FuncionarioComissionado extends Funcionario{
     private double salBase;
     private double taxaComissao;//em porcentagem Exemplo: 5%
